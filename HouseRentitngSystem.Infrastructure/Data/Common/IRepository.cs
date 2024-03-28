@@ -16,5 +16,7 @@ namespace HouseRentitngSystem.Infrastructure.Data.Common
 
         Task<int> SaveChangesAsync();
 
+        Task<T> GetById<T>(int id);
+
     }
 }
